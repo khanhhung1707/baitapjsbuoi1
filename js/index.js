@@ -30,4 +30,18 @@ console.log("so tien do can doi :", soTienCanDoi);
 tongTien = tongTien.toLocaleString('vi', {style : 'currency', currency : 'VND'});
 console.log("tong tien nhan duoc :", tongTien);
 
+//bai4
+var chieuDai = 5;
+var chieuRong = 4;
+var dienTich,chuVi;
+dienTich = chieuDai*chieuRong;
+chuVi = (chieuDai + chieuRong)*2;
+console.log("chieu dai :",chieuDai);
+console.log("chieu rong :",chieuRong);
+console.log("dien tich :",dienTich);
+console.log("chu vi :",chuVi);
+
+
+
+
 
