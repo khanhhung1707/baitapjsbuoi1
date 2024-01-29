@@ -19,4 +19,15 @@ var trungBinh;
 trungBinh = (a+b+c+d+e)/5;
 console.log(trungBinh);
 
+//bai3
+var giaQuydoi = 23500;
+var soTienCanDoi = 5;
+var tongTien;
+tongTien = giaQuydoi*soTienCanDoi;
+giaQuydoi = giaQuydoi.toLocaleString('vi', {style : 'currency', currency : 'VND'});
+console.log("1 do =",giaQuydoi);
+console.log("so tien do can doi :", soTienCanDoi);
+tongTien = tongTien.toLocaleString('vi', {style : 'currency', currency : 'VND'});
+console.log("tong tien nhan duoc :", tongTien);
+
 
