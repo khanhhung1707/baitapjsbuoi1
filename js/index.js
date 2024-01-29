@@ -41,6 +41,17 @@ console.log("chieu rong :",chieuRong);
 console.log("dien tich :",dienTich);
 console.log("chu vi :",chuVi);
 
+//bai5
+var soTuNhien = 44;
+var hangChuc,hangDonVi;
+var tongKySo;
+hangChuc = Math.floor(soTuNhien / 10);
+hangDonVi = soTuNhien % 10;
+tongKySo = hangChuc + hangDonVi;
+console.log("So co 2 chu so :", soTuNhien);
+console.log("Tong cua cac ky so :",tongKySo);
+
+
 
 
 
